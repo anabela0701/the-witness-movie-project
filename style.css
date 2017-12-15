@@ -21,3 +21,16 @@ body {
     color: blue;
     float: bottom;
 }
+
+#climate-change-2 {
+    width:35%;
+    height: 30%;
+    float: left;
+}
+
+#girl-walking{
+    width: 35%;
+    height: 30%;
+    float: right;
+    
+}
