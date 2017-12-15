@@ -16,3 +16,8 @@ body {
     font-family: 'Assistant', sans-serif;
     text-align: center;
 }
+
+.input {
+    color: blue;
+    float: bottom;
+}
