@@ -1,36 +1,71 @@
 body {
     background-color: #cccccc;
+    /*margin-left: 250px;*/
 }
 
+.wrapper {
+    height: 850px;
+    width: 800px;
+    position: absolute;
+    background-color: #cccccc;
+    margin-left: 28%;
+    background-image: url("cloud.jpg");
+    
+}
 #title {
-    color: #000000;
-    font-size: 150%;
+    color: lightgray;
+    font-size: 200%;
     font-family: 'Poiret One', cursive;
     text-align: center;
-    text-shadow: 3px 2px #a6a6a6;
+    text-shadow: 4px 1px #4169E1;
 }
 
 #subtitle {
-    color: #002b80;
+    color: 	#F5F5F5;
     font-size: 70%;
     font-family: 'Assistant', sans-serif;
     text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+#content1{
+    overflow: auto;
+}
+
+p {
+    background-color: black;
+    color: #FFFFFF;
+    top: 50px;
+    width: 350px;
+    margin-left: 300px;
+    padding: 10px 20px;
 }
 
 .input {
-    color: blue;
-    float: bottom;
+    color: white;
+    position: relative;
+    top: 560px;
+    left: 30px;
+    font-size: 20px;
+    
 }
 
-#climate-change-2 {
-    width:35%;
-    height: 30%;
+#earth {
+    width:250px;
+    height:150px;
     float: left;
+    position: absolute;
+    left:30px;
+    bottom: 440px;
+    /*left: 10%;*/
 }
 
 #girl-walking{
-    width: 35%;
-    height: 30%;
-    float: right;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    bottom: 130px;
+    left: 30px;
     
 }
