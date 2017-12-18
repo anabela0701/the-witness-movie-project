@@ -31,6 +31,7 @@ body {
 
 #content1{
     overflow: auto;
+    font-family:'Roboto Mono', ;
 }
 
 p {
@@ -69,4 +70,9 @@ p {
     left: 30px;
     
 }
-
+#date{
+    font-size: 100%; 
+    color:white;
+    text-align: center;
+    bottom:200px;
+}
