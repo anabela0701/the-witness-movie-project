@@ -104,6 +104,34 @@ p {
     position: relative;
     bottom: 150px;
     left: 0px;
-
 }
+
+#sequel {
+    height: 35px;
+    width: 200px;
+    position: relative;
+    bottom: 265px;
+    font-size: 100%;
+    left: 45%;
+    font-family:'Poiret One', cursive; 
+    font-size: 20px;
+}
+
+
+a:link {
+    color: #e0ebeb;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: white;
+}
+
 
