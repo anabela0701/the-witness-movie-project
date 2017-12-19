@@ -28,14 +28,14 @@ body {
     font-family: 'Assistant', sans-serif;
     text-align: center;
     position: relative;
-    bottom: 19px;
+    bottom: 20px;
 }
 
 #content1{
     overflow: auto;
     width:750px;
     bottom: 16%;
-    left: 4%;
+    left: 10%;
     right: 50%;
     position:absolute;
     margin:auto;
@@ -70,6 +70,7 @@ p {
     position: relative;
     margin:auto;
     font-family:'Roboto Mono';
+
 }
 #girl-walking{
     width:250px;
@@ -82,7 +83,7 @@ p {
 .input {
     color: white;
     position: relative;
-    top: 560px;
+    top: 570px;
     left: 175px;
     font-size: 20px;
     max-width: 60%;
@@ -98,10 +99,10 @@ p {
     color:white;
     text-align: center;
 
-    left:200px;
+    /*left:200px;*/
 
     position: relative;
-    bottom: 128px;
+    bottom: 150px;
     left: 0px;
 
 }
