@@ -1,17 +1,20 @@
 body {
-    background-color: #cccccc;
-    /*margin-left: 250px;*/
+    background-image: url("dark.jpg")
+    /*background-color: black;*/
 }
 
 .wrapper {
-    height: 850px;
-    width: 800px;
+    height: 880px;
+    width: 850px;
     position: absolute;
     background-color: #cccccc;
-    margin-left: 28%;
+    margin-left: 16%;
+    /*margin-right:auto;*/
     background-image: url("cloud.jpg");
-    
+    border: 15px solid black;
+
 }
+
 #title {
     color: lightgray;
     font-size: 200%;
@@ -21,62 +24,82 @@ body {
 }
 
 #subtitle {
-    color: 	#F5F5F5;
+    color: #F5F5F5;
     font-size: 70%;
     font-family: 'Assistant', sans-serif;
     text-align: center;
     position: relative;
-    bottom: 0px;
+    bottom: 20px;
 }
 
-#content1{
+#content1 {
     overflow: auto;
-    bottom:100px;
-    position: relative
-    font-family:'Roboto Mono', ;
+    width: 750px;
+    bottom: 16%;
+    left: 4%;
+    right: 50%;
+    position: relative;
+    margin: auto;
+    font-family: 'Roboto Mono';
 }
 
 p {
     background-color: black;
+    position: relative;
     color: #FFFFFF;
-    top: 50px;
-    width: 350px;
-    margin-left: 300px;
+    width: 400px;
+    bottom: 20px;
+    margin-left: 270px;
     padding: 10px 20px;
+}
+
+#earth {
+    width: 250px;
+    height: 180px;
+    float: left;
+    position: absolute;
+    bottom: 105px;
+}
+
+#cast {
+    overflow: auto;
+    width: 750px;
+    height: 200px;
+    bottom: 18%;
+    left: 4%;
+    right: 50%;
+    position: relative;
+    margin: auto;
+    font-family: 'Roboto Mono';
+}
+
+#girl-walking {
+    width: 250px;
+    height: 180px;
+    position: absolute;
 }
 
 .input {
     color: white;
     position: relative;
     top: 560px;
-    left: 30px;
+    left: 175px;
     font-size: 20px;
-    
+    max-width: 60%;
+    border: 1px solid black;
+    padding: 5px 0px 5px 10px;
+    background-color: #00004d;
+    font-family: 'Assistant', sans-serif;
+    text-shadow: 0.5px 1px #e6ffff;
 }
 
-#earth {
-    width:250px;
-    height:150px;
-    float: left;
-    position: absolute;
-    left:30px;
-    bottom: 440px;
-    /*left: 10%;*/
-}
-
-#girl-walking{
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    bottom: 130px;
-    left: 30px;
-    
-}
-#date{
-    font-size: 100%; 
-    color:white;
+#date {
+    font-size: 180%;
+    color: white;
     text-align: center;
-    left:200px;
-    bottom:100px;
-    
+    position: relative;
+    bottom: 135px;
+    left: 0px;
+
+
 }
