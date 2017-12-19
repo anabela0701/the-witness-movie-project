@@ -1,6 +1,6 @@
 body {
-     /*background-image: url("background.jpg")*/
-    /*margin-left: 250px;*/
+     background-image: url("dark.jpg")
+     /*background-color: black;*/
 }
 
 .wrapper {
@@ -8,8 +8,10 @@ body {
     width: 850px;
     position: absolute;
     background-color: #cccccc;
-    margin-left: 26%;
+    margin-left: 16%;
+    /*margin-right:auto;*/
     background-image: url("cloud.jpg");
+    border: 15px solid black;
     
 }
 #title {
