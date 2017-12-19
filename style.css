@@ -1,6 +1,6 @@
 body {
-    background-image: url("dark.jpg")
-    /*background-color: black;*/
+     background-image: url("dark.jpg")
+     /*background-color: black;*/
 }
 
 .wrapper {
@@ -12,9 +12,8 @@ body {
     /*margin-right:auto;*/
     background-image: url("cloud.jpg");
     border: 15px solid black;
-
+    
 }
-
 #title {
     color: lightgray;
     font-size: 200%;
@@ -24,23 +23,23 @@ body {
 }
 
 #subtitle {
-    color: #F5F5F5;
+    color: 	#F5F5F5;
     font-size: 70%;
     font-family: 'Assistant', sans-serif;
     text-align: center;
     position: relative;
-    bottom: 20px;
+    bottom: 19px;
 }
 
-#content1 {
+#content1{
     overflow: auto;
-    width: 750px;
+    width:750px;
     bottom: 16%;
     left: 4%;
     right: 50%;
-    position: relative;
-    margin: auto;
-    font-family: 'Roboto Mono';
+    position:absolute;
+    margin:auto;
+    font-family:'Roboto Mono';
 }
 
 p {
@@ -54,8 +53,8 @@ p {
 }
 
 #earth {
-    width: 250px;
-    height: 180px;
+    width:250px;
+    height:180px;
     float: left;
     position: absolute;
     bottom: 105px;
@@ -63,20 +62,21 @@ p {
 
 #cast {
     overflow: auto;
-    width: 750px;
+    width:750px;
     height: 200px;
     bottom: 18%;
     left: 4%;
     right: 50%;
     position: relative;
-    margin: auto;
-    font-family: 'Roboto Mono';
+    margin:auto;
+    font-family:'Roboto Mono';
 }
+#girl-walking{
+    width:250px;
+    height:180px;
+    position:absolute;
+    
 
-#girl-walking {
-    width: 250px;
-    height: 180px;
-    position: absolute;
 }
 
 .input {
@@ -88,18 +88,20 @@ p {
     max-width: 60%;
     border: 1px solid black;
     padding: 5px 0px 5px 10px;
-    background-color: #00004d;
-    font-family: 'Assistant', sans-serif;
+    background-color:  #00004d;
+    font-family:'Assistant', sans-serif;
     text-shadow: 0.5px 1px #e6ffff;
 }
 
-#date {
-    font-size: 180%;
-    color: white;
+#date{
+    font-size: 180%; 
+    color:white;
     text-align: center;
-    position: relative;
-    bottom: 135px;
-    left: 0px;
 
+    left:200px;
+
+    position: relative;
+    bottom: 128px;
+    left: 0px;
 
 }
