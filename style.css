@@ -28,14 +28,14 @@ body {
     font-family: 'Assistant', sans-serif;
     text-align: center;
     position: relative;
-    bottom: 20px;
+    bottom: 19px;
 }
 
 #content1{
     overflow: auto;
     width:750px;
     bottom: 16%;
-    left: 10%;
+    left: 4%;
     right: 50%;
     position:absolute;
     margin:auto;
@@ -70,7 +70,6 @@ p {
     position: relative;
     margin:auto;
     font-family:'Roboto Mono';
-
 }
 #girl-walking{
     width:250px;
@@ -83,7 +82,7 @@ p {
 .input {
     color: white;
     position: relative;
-    top: 570px;
+    top: 560px;
     left: 175px;
     font-size: 20px;
     max-width: 60%;
@@ -99,39 +98,10 @@ p {
     color:white;
     text-align: center;
 
-    /*left:200px;*/
+    left:200px;
 
     position: relative;
-    bottom: 150px;
+    bottom: 128px;
     left: 0px;
+
 }
-
-#sequel {
-    height: 35px;
-    width: 200px;
-    position: relative;
-    bottom: 265px;
-    font-size: 100%;
-    left: 45%;
-    font-family:'Poiret One', cursive; 
-    font-size: 20px;
-}
-
-
-a:link {
-    color: #e0ebeb;
-}
-
-a:visited {
-    color: white;
-}
-
-a:hover {
-    color: red;
-}
-
-a:active {
-    color: white;
-}
-
-
